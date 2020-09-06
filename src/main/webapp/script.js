@@ -158,3 +158,6 @@ function createPostElement(post) {
   postElement.appendChild(textElement);
   return postElement;
 }
+function toggleSidebar() {
+        document.getElementById("sidebar").classList.toggle('active');
+}
